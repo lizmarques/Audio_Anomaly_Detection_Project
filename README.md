@@ -5,4 +5,5 @@
 
 ## Demonstração da Ferramenta
 
-![Raw Data](DeteccaodeAnomaliasporAudio/imagens/audio_anomaly_detection_demo.gif)
+<p align=" center"><img alt="gif" src="DeteccaodeAnomaliasporAudio/imagens/audio_anomaly_detection_demo.gif"/></p>
+
