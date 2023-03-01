@@ -23,3 +23,29 @@ Inserida no contexto de Smart Factories*, a ferramenta de Detecção de Anomalia
 O modelo atual foi desenvolvido com foco em identificar anomalias de ventiladores industriais. No entanto, é possível aplicá-lo em diferentes tipos de maquinários como: bombas, válvulas ou até mesmo trilhos deslizantes. Para isso, basta ter os dados correspondentes.
 
 *Smart Factories são indústrias com um alto nível de digitalização que facilitam a coleta de dados e informações por meio dos dispositivos tecnológicos
+
+## Fonte dos dados: MIMII Dataset
+
+O MIMII (Malfunctioning Industrial Machine Investigation and Inspection) dataset é um conjunto de dados de áudio para investigação e inspeção de máquinas industriais com defeito. Ele contém sons gerados por quatro tipos de máquinas industriais:
+- Válvulas Solenóide (solenoid valves)
+- Bombas de Água (water pumps)
+- Ventiladores Industriais (industrial fans)
+- Trilhos Deslizantes (slide rails)
+- 
+O dataset possui um total de 32.157 sons no formato wave, sendo:
+- 26.092 sons normais
+- 6.065 sons anômalos
+Cada tipo de máquina inclui vários modelos de produtos individuais e os dados de cada modelo contêm sons normais e anômalos. Para se assemelhar a um cenário da vida real, vários sons anômalos foram gravados. Além disso, o ruído de fundo gravado em várias fábricas reais foi misturado com os sons da máquina.
+
+Os sons anômalos contidos no dataset podem ser de difernetes naturezas como:
+- Contaminação
+- Vazamento
+- Desbalanceamento rotativo
+- Danos no trilho
+Todos os arquivos de áudio utilizados neste notebook podem ser encontrados no site: https://zenodo.org/record/3384388#.Y3vbs3bMLrd
+
+A descrição detalhada em como esta base de dados foi compilada, pode ser vista neste artigo:
+
+[1] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” arXiv preprint arXiv:1909.09347, 2019. URL: https://arxiv.org/abs/1909.09347
+[2] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” in Proc. 4th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE), 2019.
+fonte: https://github.com/MIMII-hitachi/mimii_baseline
