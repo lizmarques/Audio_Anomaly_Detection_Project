@@ -60,10 +60,28 @@ Todos os arquivos de áudio utilizados podem ser encontrados no site: https://ze
 
 O artigo referente ao dataset pode ser encontrado no site: https://arxiv.org/abs/1909.09347
 
-## Pré-Processamento dos dados
+## Visualizando a distribuição
 
 Ao observar a quantidade de arquivos para cada classe fica evidente que temos um dataset bem desbalanceado.
 <p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/bar_plot.png">
+ 
+## Espectrogramas de MFCC (Coeficientes Cepstral de Frequência Mel)
+  
+Os espectrogramas são parte fundamental da nossa aplicação, pois, através deles, podemos observar o áudio em três domímios: 
+- Tempo
+- Frequência
+- Amplitude
+  
+O espectrograma nada mais é do que  um conjunto de características extraídas do áudio e, por meio dessas características, podemos visualizar estes gráficos:
+<p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/mfcc.png">
+
+Agora, quando falamos em escala mel, podemos pensar que ela faz uma espécie de normalização. Além disso, ela é fundamental em aplicações de ML 
+voltadas para áudio, pois ela imita as características únicas perceptíveis pelo ouvido humano. Ex: é muito mais fácil nós identificarmos a diferença de 100Hz-200Hz do que 10.100Hz-10.200Hz.
+
+Portanto, podemos reparar que os espectrogramas nada mais são do que imagens, logo, podemos treinar uma rede neural convolucional para que ela aprenda a 
+classificar os diferentes tipos de som baseada nas diferenças dos espectrogramas mfcc.
+
+
 
 
 
