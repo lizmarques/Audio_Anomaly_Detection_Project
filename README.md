@@ -82,11 +82,25 @@ Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, 
  
  ## Modelo: Rede Neural Convolucional (CNN)
  
- A arquitetura da rede neural utilizada neste projeto é bem simples, uma vez que possui apenas 2 blocos convolucionais:
+ A arquitetura da rede neural utilizada neste projeto é bem simples, uma vez que possui apenas 2 blocos convolucionais. Abaixo podemos observar uma imagem com o desenho da arquitetura e, posteriormente, uma explicação sobre os parâmetros.
+ 
+ <p align="center"> <img width="1000px" heigth="700px" src="DeteccaodeAnomaliasporAudio/imagens/cnn.png">
+  
+ Parâmetros: 
+  * `Sequential`, é a classe para criar a rede neural, pois uma rede neural nada mais é que uma sequência de camadas (camada e entrada, camadas ocultas, camada de saída);  
+  * `kernel_size`, o tamanho do kernel (matriz) de convolução;
+  * `activation`, função de ativação;
+  * `input_shape`, na primeira camada este é o tamanho dos dados de entrada
+  * Camada `MaxPooling1D`, que vai fazer a extração das características principais;
+  * Camada `Conv1d`, uma rede neural convolucional que realiza a convolução ao longo de apenas uma dimensão;
+  * Camada `Flatten`, para transformar de matriz em vetor;
+  * Camada `Dense`, quando um neurônio de uma camada está ligado a todas os outros neurônios das outras camadas;
+  * `Dropout`, técnica de regularização para diminuir o overfitting: https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+  * `padding='same'`, indica que adicionamos uma nova coluna composta por somente 0 (zeros) e utilizamos toda a imagem: https://www.pico.net/kb/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-tensorflow/
  
  ## Matriz de Confusão
  
- <p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/confusion_matrix.png">
+ <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/confusion_matrix.png">
   
  ## Classification Report
   
