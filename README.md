@@ -86,8 +86,12 @@ Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, 
  
  ## Matriz de Confusão
  
+ <p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/confusion_matrix.png">
+  
  ## Classification Report
- 
+  
+ <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
+  
  ## Próximos Passos
  
  
