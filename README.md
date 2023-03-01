@@ -73,9 +73,21 @@ Os espectrogramas são parte fundamental da nossa aplicação, pois, através de
 - Amplitude
   
 <p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/mfcc.png">
+ 
  O espectrograma nada mais é do que um conjunto de características extraídas do áudio e, por meio dessas características, podemos visualizar o gráfico acima.
 
 Quando pensamos em aplicações de Machine Learning voltadas para áudio, a escala mel é muito relevante, já que ela imita as características únicas perceptíveis pelo ouvido humano. Ex: é muito mais fácil nós identificarmos a diferença de 100Hz-200Hz do que 10.100Hz-10.200Hz.
 
-Um vez que os espectrogramas nada mais são do que imagens, podemos treinar uma rede neural convolucional para que ela aprenda a classificar os diferentes tipos de som baseada nas diferenças dos espectrogramas mfcc.
+Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, podemos concluir que os espectrogramas nada mais são do que imagens. Logo, podemos treinar uma rede neural convolucional para que ela aprenda a classificar os diferentes tipos de som baseada nas diferenças dos espectrogramas mfcc.
+ 
+ ## Modelo: Rede Neural Convolucional (CNN)
+ 
+ A arquitetura da rede neural utilizada neste projeto é bem simples, uma vez que possui apenas 2 blocos convolucionais:
+ 
+ ## Matriz de Confusão
+ 
+ ## Classification Report
+ 
+ ## Próximos Passos
+ 
  
