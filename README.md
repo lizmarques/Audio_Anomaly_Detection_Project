@@ -102,11 +102,19 @@ Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, 
  
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/confusion_matrix.png">
   
+Observando a matriz de confusão, podemos chegar as seguintes conclusões:
+- 151 sons foram classificados corretamente com sons anômalos
+- 387 foram classificados corretamente como sons normais
+- 8 sons que deveriam ter sido classificados como sons anômalos foram classificados como normais
+- 9 sons que deveriam ter sido classificados como sons normais foram classificados como anômalos
+  
  ## Classification Report
+  
+ Podemos observar que, embora o dataset estivesse bem desbalanceado, o modelo consegiu performar bem e obtivemos um acurácia de 97%.
   
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
  
- Podemos observar que, embora o dataset estivesse bem desbalanceado, conseguimos um acurácia de 97%. Além disso....
+Além disso, podemos chegar as seguintes conclusões:
   
  ## Próximos Passos
 - Treinar, testar e avaliar o modelo com outros tipos de máquinas
