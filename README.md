@@ -107,5 +107,6 @@ Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, 
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
   
  ## Próximos Passos
- 
+- Treinar, testar e avaliar o modelo com outros tipos de máquinas
+- Readaptar o projeto para fazer detecção em real time utilizando um arduino, por exemplo
  
