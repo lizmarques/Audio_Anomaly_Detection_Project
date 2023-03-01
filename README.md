@@ -72,16 +72,10 @@ Os espectrogramas são parte fundamental da nossa aplicação, pois, através de
 - Frequência
 - Amplitude
   
-O espectrograma nada mais é do que  um conjunto de características extraídas do áudio e, por meio dessas características, podemos visualizar estes gráficos:
 <p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/mfcc.png">
+ O espectrograma nada mais é do que um conjunto de características extraídas do áudio e, por meio dessas características, podemos visualizar o gráfico acima.
 
-Agora, quando falamos em escala mel, podemos pensar que ela faz uma espécie de normalização. Além disso, ela é fundamental em aplicações de ML 
-voltadas para áudio, pois ela imita as características únicas perceptíveis pelo ouvido humano. Ex: é muito mais fácil nós identificarmos a diferença de 100Hz-200Hz do que 10.100Hz-10.200Hz.
+Quando pensamos em aplicações de Machine Learning voltadas para áudio, a escala mel é muito relevante, já que ela imita as características únicas perceptíveis pelo ouvido humano. Ex: é muito mais fácil nós identificarmos a diferença de 100Hz-200Hz do que 10.100Hz-10.200Hz.
 
-Portanto, podemos reparar que os espectrogramas nada mais são do que imagens, logo, podemos treinar uma rede neural convolucional para que ela aprenda a 
-classificar os diferentes tipos de som baseada nas diferenças dos espectrogramas mfcc.
-
-
-
-
-
+Um vez que os espectrogramas nada mais são do que imagens, podemos treinar uma rede neural convolucional para que ela aprenda a classificar os diferentes tipos de som baseada nas diferenças dos espectrogramas mfcc.
+ 
