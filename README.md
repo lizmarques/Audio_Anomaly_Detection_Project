@@ -114,7 +114,10 @@ Observando a matriz de confusão, podemos chegar as seguintes conclusões:
   
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
  
-Além disso, podemos chegar as seguintes conclusões:
+Visualizando a taxa de acerto para cada uma das classes, podemos constar que:
+- Um recall de 98% indica que o modelo consegue classificar 98% dos sons normais e, quando isso acontece, ele tem 98% de precisão (precision)
+- Já o recall de 95% para classe abnormal, indica que o modelo consegue classificar 95% dos sons anômalos e, quando isso ocorre, ele tem 94% de precisão
+
   
  ## Próximos Passos
 - Treinar, testar e avaliar o modelo com outros tipos de máquinas
