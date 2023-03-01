@@ -105,6 +105,8 @@ Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, 
  ## Classification Report
   
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
+ 
+ Podemos observar que, embora o dataset estivesse bem desbalanceado, conseguimos um acurácia de 97%. Além disso....
   
  ## Próximos Passos
 - Treinar, testar e avaliar o modelo com outros tipos de máquinas
