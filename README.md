@@ -32,9 +32,19 @@ O MIMII (Malfunctioning Industrial Machine Investigation and Inspection) dataset
 - Ventiladores Industriais (industrial fans)
 - Trilhos Deslizantes (slide rails)
 
-O dataset possui um total de 32.157 sons no formato wave, sendo:
+O dataset possui um total de 32.157 sons (100.2 GB) no formato wave, sendo:
 - 26.092 sons normais
 - 6.065 sons anômalos
+
+Para o atual projeto, optei pelos Ventiladores Industriais, pois dentre os 4 tipos de máquina, ele possuia o dataset menos desbalanceado dentre os 4 tipos de maquinário A seguir algumas informações básicas:
+- Total: 9819 sons
+- 7230 sons normais
+- 2589 sons anômalos (correspondem a 26.37% do dataset)
+
+E, dentro do grupo dos Ventiladores Industriais, escolhi o Grupo 0_dB_fan:
+- Total: 5550 sons
+- 4075 sons normais
+- 1475 sons anômalos
 
 Cada tipo de máquina inclui vários modelos de produtos individuais e os dados de cada modelo contêm sons normais e anômalos. Para se assemelhar a um cenário da vida real, vários sons anômalos foram gravados. Além disso, o ruído de fundo gravado em várias fábricas reais foi misturado com os sons da máquina.
 
@@ -43,6 +53,8 @@ Os sons anômalos contidos no dataset podem ser de diferentes naturezas como:
 - Vazamento
 - Desbalanceamento rotativo
 - Danos no trilho
+
+No caso dos Ventiladores Industriais, os sons anômalos se caracterizam por: desbalanceamento, mudança de tensão e entupimento
 
 Todos os arquivos de áudio utilizados podem ser encontrados no site: https://zenodo.org/record/3384388#.Y3vbs3bMLrd
 
