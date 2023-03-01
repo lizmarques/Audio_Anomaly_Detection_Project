@@ -104,7 +104,7 @@ Agora que já compreendemos o que é um espectrograma e o que faz a escala mel, 
   
 Observando a matriz de confusão, podemos chegar as seguintes conclusões:
 - 151 sons foram classificados corretamente com sons anômalos
-- 387 foram classificados corretamente como sons normais
+- 387 sons foram classificados corretamente como sons normais
 - 8 sons que deveriam ter sido classificados como sons anômalos foram classificados como normais
 - 9 sons que deveriam ter sido classificados como sons normais foram classificados como anômalos
   
@@ -115,8 +115,8 @@ Observando a matriz de confusão, podemos chegar as seguintes conclusões:
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
  
 Visualizando a taxa de acerto para cada uma das classes, podemos constar que:
-- Um recall de 98% indica que o modelo consegue classificar 98% dos sons normais e, quando isso acontece, ele tem 98% de precisão (precision)
-- Já o recall de 95% para classe abnormal, indica que o modelo consegue classificar 95% dos sons anômalos e, quando isso ocorre, ele tem 94% de precisão
+- Um recall de 98% para classe normal, indica que o modelo consegue classificar corretamente 98% dos casos de sons normais e, quando isso acontece, ele tem 98% de precisão (precision)
+- Já um recall de 95% para classe abnormal, indica que o modelo consegue classificar corretamente 95% dos casos de sons anômalos e, quando isso ocorre, ele tem 94% de precisão
   
  ## Próximos Passos
 - Treinar, testar e avaliar o modelo com outros tipos de máquinas
