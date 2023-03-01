@@ -36,7 +36,7 @@ O dataset possui um total de 32.157 sons (100.2 GB) no formato wave, sendo:
 - 26.092 sons normais
 - 6.065 sons anômalos
 
-Para o atual projeto, optei pelos Ventiladores Industriais, pois dentre os 4 tipos de máquina, ele possuia o dataset menos desbalanceado dentre os 4 tipos de maquinário A seguir algumas informações básicas:
+Para o atual projeto, optei pelos Ventiladores Industriais, pois, dentre os 4 tipos de máquina, ele possuia o dataset menos desbalanceado. A seguir algumas informações básicas:
 - Total: 9819 sons
 - 7230 sons normais
 - 2589 sons anômalos (correspondem a 26.37% do dataset)
@@ -54,8 +54,16 @@ Os sons anômalos contidos no dataset podem ser de diferentes naturezas como:
 - Desbalanceamento rotativo
 - Danos no trilho
 
-No caso dos Ventiladores Industriais, os sons anômalos se caracterizam por: desbalanceamento, mudança de tensão e entupimento
+No caso dos Ventiladores Industriais, os sons anômalos se caracterizam por desbalanceamento, mudança de tensão e entupimento.
 
 Todos os arquivos de áudio utilizados podem ser encontrados no site: https://zenodo.org/record/3384388#.Y3vbs3bMLrd
 
 O artigo referente ao dataset pode ser encontrado no site: https://arxiv.org/abs/1909.09347
+
+## Pré-Processamento dos dados
+
+Ao observar a quantidade de arquivos para cada classe fica evidente que temos um dataset bem desbalanceado.
+<p align="center"> <img width="800px" heigth="500px" src="DeteccaodeAnomaliasporAudio/imagens/bar_plot.png">
+
+
+
