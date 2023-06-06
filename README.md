@@ -67,7 +67,7 @@ Ao observar a quantidade de arquivos para cada classe fica evidente que temos um
  
 ## Espectrogramas de MFCC (Coeficientes Cepstral de Frequência Mel)
   
-Os espectrogramas são parte fundamental da nossa aplicação, pois, através deles, podemos observar o áudio em três domímios: 
+Os espectrogramas são parte fundamental da nossa aplicação, pois, através deles, podemos observar o áudio em três domínios: 
 - Tempo
 - Frequência
 - Amplitude
