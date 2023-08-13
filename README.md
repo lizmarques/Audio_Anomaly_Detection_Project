@@ -110,7 +110,7 @@ Observando a matriz de confusão, podemos chegar as seguintes conclusões:
   
  ## Classification Report
   
- Podemos observar que, embora o dataset estivesse bem desbalanceado, o modelo consegiu performar bem e obtivemos um acurácia de 97%.
+ Podemos observar que, embora o dataset estivesse bem desbalanceado, o modelo conseguiu performar bem e obtivemos um acurácia de 97%.
   
  <p align="center"> <img width="600px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/classification_report.png">
  
