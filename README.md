@@ -39,7 +39,8 @@ For the current project, Industrial Fans were chosen because, among the four typ
 - 7230 normal sounds
 - 2589 anomalous sounds (26.37% of the dataset)
 
-Within the Industrial Fans group, the 0_dB_fan subgroup was selected: Total: 5550 sounds
+Within the Industrial Fans group, the 0_dB_fan subgroup was selected: 
+- Total: 5550 sounds
 - 4075 normal sounds
 - 1475 anomalous sounds
 
