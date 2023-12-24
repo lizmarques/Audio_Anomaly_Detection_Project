@@ -51,7 +51,7 @@ The anomalous sounds in the dataset can have different natures such as:
 - Leakage
 - Rotational imbalance
 - Rail damage
-- 
+
 For Industrial Fans, anomalous sounds are characterized by imbalance, voltage changes, and blockage.
 
 All audio files used can be found on the website: https://zenodo.org/record/3384388#.Y3vbs3bMLrd
