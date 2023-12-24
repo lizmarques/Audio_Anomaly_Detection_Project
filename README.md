@@ -1,4 +1,4 @@
-<h1 align="center">Anomaly Detector through Audio Classification</h1>
+<h1 align="center">Anomaly Detector by Audio Classification</h1>
 <p align="center"> <img width="100px" heigth="300px" src="DeteccaodeAnomaliasporAudio/imagens/logo_sidebar.png">
 </p>
 
